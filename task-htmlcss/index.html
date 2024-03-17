@@ -9,45 +9,33 @@
     <link rel="stylesheet" href="./fonts/fonts.css" />
   </head>
   <body>
-    <!-- <header data-test="header" class="header"> -->
-    <!-- Шапка -->
-    <!-- <div class="header__logo" >
-        <img class="header__logo-image" src="./images/logo.svg" />
+    <header data-test="header" class="header">
+      <!-- Шапка -->
+      <div class="header__logo">
+        <img class="header__logo-image" alt="logo" src="./images/logo.svg" />
       </div>
-      <li class="header__nav">
-        <ul class="header__nav-list">
-          Гастротуры
-        </ul>
-        <ul class="header__nav-list">
-          Бронирование
-        </ul>
-        <ul class="header__nav-list">
-          О нас
-        </ul>
-        <ul class="header__nav-list">
-          Отзывы
-        </ul>
-        <ul class="header__nav-list">
-          Фотографии
-        </ul>
-        <ul class="header__nav-list">
-          Контакты
-        </ul>
-      </li>
-      <span class="header__description">8 800 725-32-32</span> -->
-    <!-- </header> -->
+      <ul class="header__nav">
+        <li class="header__nav-list">Гастротуры</li>
+        <li class="header__nav-list">Бронирование</li>
+        <li class="header__nav-list">О нас</li>
+        <li class="header__nav-list">Отзывы</li>
+        <li class="header__nav-list">Фотографии</li>
+        <li class="header__nav-list">Контакты</li>
+      </ul>
+      <span class="header__description">8 800 725-32-32</span>
+    </header>
     <main>
-      <!-- <section data-test="hero" class="hero"> -->
-      <!-- Hero -->
-      <!-- <div class="hero__container">
+      <section data-test="hero" class="hero">
+        <!-- Hero -->
+        <div class="hero__container">
           <h1 class="hero__title">Исследуйте вкусы Кавказа</h1>
           <p class="hero__text">
             В сопровождении опытных шеф-поваров вы откроете для себя богатство
             кавказской кухни и научитесь готовить традиционные блюда.
           </p>
-          <button class="hero__button">Подробнее о курсе</button>
+          <button class="hero__button" type="button">Подробнее о курсе</button>
         </div>
-      </section> -->
+      </section>
       <section data-test="events" class="events">
         <!-- События -->
         <h2 class="events__title">Предстоящие события</h2>
@@ -57,6 +45,7 @@
               <img
                 class="events__location-image"
                 src="./images/icon-location.svg"
+                alt="point-icon"
               />
               <span class="events__location-text">Кавказ</span>
             </div>
@@ -65,6 +54,7 @@
                 <img
                   class="events__data-image"
                   src="./images/icon-calendar.svg"
+                  alt="calendar-icon"
                 />
                 <span class="events__data-text">4 дня</span>
               </div>
@@ -76,8 +66,9 @@
                 <img
                   class="events__level-image"
                   src="./images/level-3.svg"
-                  width="76px"
-                  height="15px"
+                  alt="food"
+                  width="76"
+                  height="15"
                 />
               </div>
             </div>
@@ -88,6 +79,7 @@
               <img
                 class="events__location-image"
                 src="./images/icon-location.svg"
+                alt="point-icon"
               />
               <span class="events__location-text">Алтай</span>
             </div>
@@ -96,6 +88,7 @@
                 <img
                   class="events__data-image"
                   src="./images/icon-calendar.svg"
+                  alt="calendar-icon"
                 />
                 <span class="events__data-text">13 дней</span>
               </div>
@@ -107,8 +100,9 @@
                 <img
                   class="events__level-image"
                   src="./images/level-2.svg"
-                  width="76px"
-                  height="15px"
+                  alt="food"
+                  width="76"
+                  height="15"
                 />
               </div>
             </div>
@@ -119,6 +113,7 @@
               <img
                 class="events__location-image"
                 src="./images/icon-location.svg"
+                alt="point-icon"
               />
               <span class="events__location-text">Адыгея</span>
             </div>
@@ -127,6 +122,7 @@
                 <img
                   class="events__data-image"
                   src="./images/icon-calendar.svg"
+                  alt="calendar-icon"
                 />
                 <span class="events__data-text">6 дней</span>
               </div>
@@ -138,16 +134,21 @@
                 <img
                   class="events__level-image"
                   src="./images/level-4.svg"
-                  width="76px"
-                  height="15px"
+                  alt="food"
+                  width="76"
+                  height="15"
                 />
               </div>
             </div>
           </div>
         </div>
-        <button class="events__button-container">
+        <button class="events__button-container" type="button">
           <span class="events__button">Показать все курсы</span>
-          <img class="events__button-image" src="./images/icon-arrow.svg" />
+          <img
+            class="events__button-image"
+            src="./images/icon-arrow.svg"
+            alt="arrow-icon"
+          />
         </button>
       </section>
     </main>

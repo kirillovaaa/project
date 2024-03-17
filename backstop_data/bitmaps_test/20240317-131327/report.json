@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-desktop.log.json",
+        "test": "../bitmaps_test/20240317-131327/events-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-desktop.png",
         "label": "events",
@@ -23,7 +21,7 @@
           },
           "rawMisMatchPercentage": 0.10929778415431214,
           "misMatchPercentage": "0.11",
-          "analysisTime": 47
+          "analysisTime": 37
         }
       },
       "status": "pass"
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-mobile.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-mobile.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-mobile.log.json",
+        "test": "../bitmaps_test/20240317-131327/events-mobile.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-mobile.png",
         "label": "events",
@@ -50,7 +46,7 @@
           },
           "rawMisMatchPercentage": 2.5543859649122806,
           "misMatchPercentage": "2.55",
-          "analysisTime": 32
+          "analysisTime": 35
         }
       },
       "status": "pass"
@@ -58,9 +54,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-tablet.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-tablet.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-tablet.log.json",
+        "test": "../bitmaps_test/20240317-131327/events-tablet.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-tablet.png",
         "label": "events",
@@ -77,7 +71,7 @@
           },
           "rawMisMatchPercentage": 0.5984084338863751,
           "misMatchPercentage": "0.60",
-          "analysisTime": 27
+          "analysisTime": 29
         }
       },
       "status": "pass"
@@ -85,9 +79,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-overflow-desktop.log.json",
+        "test": "../bitmaps_test/20240317-131327/events-overflow-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-desktop.png",
         "label": "events-overflow",
@@ -104,7 +96,7 @@
           },
           "rawMisMatchPercentage": 0.11069265104415749,
           "misMatchPercentage": "0.11",
-          "analysisTime": 54
+          "analysisTime": 35
         }
       },
       "status": "pass"
@@ -112,9 +104,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-underflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-underflow-desktop.log.json",
+        "test": "../bitmaps_test/20240317-131327/events-underflow-desktop.png",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-desktop.png",
         "label": "events-underflow",
@@ -131,7 +121,7 @@
           },
           "rawMisMatchPercentage": 0.10959668420213614,
           "misMatchPercentage": "0.11",
-          "analysisTime": 42
+          "analysisTime": 36
         }
       },
       "status": "pass"

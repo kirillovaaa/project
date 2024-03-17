@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-desktop.log.json",
         "test": "../bitmaps_test/20240317-131544/events-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-desktop.png",
         "label": "events",
@@ -31,9 +29,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-mobile.log.json",
         "test": "../bitmaps_test/20240317-131544/events-mobile.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-mobile.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-mobile.png",
         "label": "events",
@@ -58,9 +54,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-tablet.log.json",
         "test": "../bitmaps_test/20240317-131544/events-tablet.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-tablet.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-tablet.png",
         "label": "events",
@@ -85,9 +79,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-desktop.log.json",
         "test": "../bitmaps_test/20240317-131544/events-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-overflow-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-overflow-desktop.png",
         "label": "events-overflow",
@@ -112,9 +104,7 @@
     {
       "pair": {
         "reference": "../../test-htmlcss/reference/events-underflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-desktop.log.json",
         "test": "../bitmaps_test/20240317-131544/events-underflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-underflow-desktop.log.json",
         "selector": "[data-test=\"events\"]",
         "fileName": "events-underflow-desktop.png",
         "label": "events-underflow",
