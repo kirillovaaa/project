@@ -1,0 +1,10 @@
+{
+  "editorconfig-cli": [
+    "./task-htmlcss/**/*.html",
+    "./task-htmlcss/**/*.css",
+    "./task-htmlcss/**/*.js",
+    "./task-js/**/*.html",
+    "./task-js/**/*.css",
+    "./task-js/**/*.js"
+  ]
+}

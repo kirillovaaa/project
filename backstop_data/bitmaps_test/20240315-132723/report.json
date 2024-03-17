@@ -1,0 +1,83 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-example/reference/header-desktop.png",
+        "test": "../bitmaps_test/20240315-132723/header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-example/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 61.88509021842356,
+          "misMatchPercentage": "61.89",
+          "analysisTime": 30
+        },
+        "diffImage": "../bitmaps_test/20240315-132723/failed_diff_header-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-example/reference/main-desktop.png",
+        "test": "../bitmaps_test/20240315-132723/main-desktop.png",
+        "selector": "[data-test=\"main\"]",
+        "fileName": "main-desktop.png",
+        "label": "main",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-example/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 91.37801502570186,
+          "misMatchPercentage": "91.38",
+          "analysisTime": 198
+        },
+        "diffImage": "../bitmaps_test/20240315-132723/failed_diff_main-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-example/reference/footer-desktop.png",
+        "test": "../bitmaps_test/20240315-132723/footer-desktop.png",
+        "selector": "[data-test=\"footer\"]",
+        "fileName": "footer-desktop.png",
+        "label": "footer",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 5,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-example/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 40.390325670498086,
+          "misMatchPercentage": "40.39",
+          "analysisTime": 50
+        },
+        "diffImage": "../bitmaps_test/20240315-132723/failed_diff_footer-desktop.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

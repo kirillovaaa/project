@@ -1,0 +1,242 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+  "rules" : {
+    "function-calc-no-unspaced-operator": null,
+
+    "at-rule-no-vendor-prefix": null,
+
+    "length-zero-no-unit": null,
+
+    "media-feature-name-no-vendor-prefix": null,
+
+    "property-no-vendor-prefix": null,
+
+    "value-no-vendor-prefix": null,
+
+    "max-nesting-depth": [
+      4,
+      {
+        "ignore": [
+          "blockless-at-rules",
+          "pseudo-classes"
+        ]
+      }
+    ],
+
+    "number-max-precision": null,
+
+    "color-hex-alpha": null,
+    "color-named": null,
+    "color-hex-length": null,
+    "font-weight-notation": null,
+
+    "selector-class-pattern": null,
+
+    "shorthand-property-no-redundant-values": null,
+
+    "@stylistic/at-rule-name-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/at-rule-name-space-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/at-rule-semicolon-newline-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-closing-brace-empty-line-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-closing-brace-newline-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-closing-brace-newline-before": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-closing-brace-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-closing-brace-space-before": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-opening-brace-newline-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-opening-brace-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/block-opening-brace-space-before": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/color-hex-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-bang-space-after": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-bang-space-before": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-block-semicolon-newline-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-block-semicolon-newline-before": ["never-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-block-semicolon-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-block-semicolon-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-block-trailing-semicolon": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-colon-newline-after": ["always-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-colon-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/declaration-colon-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-comma-newline-after": ["always-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-comma-newline-before": ["never-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-comma-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-comma-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-max-empty-lines": [0, {
+      "severity": "warning"
+    }],
+    "@stylistic/function-parentheses-space-inside": ["never-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/function-whitespace-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/indentation": [2, {
+      "severity": "warning"
+    }],
+    "@stylistic/max-empty-lines": [2, {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-colon-space-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-colon-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-name-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-parentheses-space-inside": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-range-operator-space-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-feature-range-operator-space-before": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-query-list-comma-newline-after": ["always-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-query-list-comma-newline-before": ["never-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-query-list-comma-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/media-query-list-comma-space-before": ["never-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/no-eol-whitespace": [true, {
+      "severity": "warning"
+    }],
+    "@stylistic/no-extra-semicolons": [true, {
+      "severity": "warning"
+    }],
+    "@stylistic/no-missing-end-of-source-newline": [true, {
+      "severity": "warning"
+    }],
+    "@stylistic/number-leading-zero": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/number-no-trailing-zeros": [true, {
+      "severity": "warning"
+    }],
+    "@stylistic/property-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-attribute-brackets-space-inside": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-attribute-operator-space-after": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-attribute-operator-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-combinator-space-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-combinator-space-before": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-descendant-combinator-no-non-space": [true, {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-list-comma-newline-after": ["always", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-list-comma-newline-before": ["never-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-list-comma-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-list-comma-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-max-empty-lines": [0, {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-pseudo-class-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-pseudo-class-parentheses-space-inside": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/selector-pseudo-element-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/string-quotes": ["double", {
+      "severity": "warning"
+    }],
+    "@stylistic/unit-case": ["lower", {
+      "severity": "warning"
+    }],
+    "@stylistic/value-list-comma-newline-after": ["always-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/value-list-comma-newline-before": ["never-multi-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/value-list-comma-space-after": ["always-single-line", {
+      "severity": "warning"
+    }],
+    "@stylistic/value-list-comma-space-before": ["never", {
+      "severity": "warning"
+    }],
+    "@stylistic/value-list-max-empty-lines": [0, {
+      "severity": "warning"
+    }]
+  }
+}

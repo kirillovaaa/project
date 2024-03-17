@@ -1,0 +1,136 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-desktop.png",
+        "test": "../bitmaps_test/20240315-153612/header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.2337962962962963,
+          "misMatchPercentage": "3.23",
+          "analysisTime": 23
+        },
+        "diffImage": "../bitmaps_test/20240315-153612/failed_diff_header-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-tablet.png",
+        "test": "../bitmaps_test/20240315-153612/header-tablet.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-tablet.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.587022569444445,
+          "misMatchPercentage": "5.59",
+          "analysisTime": 19
+        },
+        "diffImage": "../bitmaps_test/20240315-153612/failed_diff_header-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-mobile.png",
+        "test": "../bitmaps_test/20240315-153612/header-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-mobile.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.631111111111111,
+          "misMatchPercentage": "2.63",
+          "analysisTime": 14
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-desktop.png",
+        "test": "../bitmaps_test/20240315-153612/header-overflow-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-desktop.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «8 800 725-32-32» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 67.07118055555556,
+          "misMatchPercentage": "67.07",
+          "analysisTime": 69
+        },
+        "diffImage": "../bitmaps_test/20240315-153612/failed_diff_header-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-mobile.png",
+        "test": "../bitmaps_test/20240315-153612/header-overflow-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-mobile.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «8 800 725-32-32» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 89.61111111111111,
+          "misMatchPercentage": "89.61",
+          "analysisTime": 50
+        },
+        "diffImage": "../bitmaps_test/20240315-153612/failed_diff_header-overflow-mobile.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

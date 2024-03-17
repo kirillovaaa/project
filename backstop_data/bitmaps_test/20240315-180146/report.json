@@ -1,0 +1,134 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-desktop.png",
+        "test": "../bitmaps_test/20240315-180146/hero-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-desktop.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 35
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-tablet.png",
+        "test": "../bitmaps_test/20240315-180146/hero-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-tablet.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 6.884877873563218,
+          "misMatchPercentage": "6.88",
+          "analysisTime": 62
+        },
+        "diffImage": "../bitmaps_test/20240315-180146/failed_diff_hero-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-mobile.png",
+        "test": "../bitmaps_test/20240315-180146/hero-mobile.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-mobile.png",
+        "label": "hero",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 4,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.1560000000000001,
+          "misMatchPercentage": "1.16",
+          "analysisTime": 33
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-overflow-desktop.png",
+        "test": "../bitmaps_test/20240315-180146/hero-overflow-desktop.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-overflow-desktop.png",
+        "label": "hero-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "engineErrorMsg": "Не удалось найти элемент содержащий текст «богатство кавказской кухни» для тестирования переполнения",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 67.28244357638889,
+          "misMatchPercentage": "67.28",
+          "analysisTime": 249
+        },
+        "diffImage": "../bitmaps_test/20240315-180146/failed_diff_hero-overflow-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/hero-underflow-tablet.png",
+        "test": "../bitmaps_test/20240315-180146/hero-underflow-tablet.png",
+        "selector": "[data-test=\"hero\"]",
+        "fileName": "hero-underflow-tablet.png",
+        "label": "hero-underflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 15.515686585022523,
+          "misMatchPercentage": "15.52",
+          "analysisTime": 65
+        },
+        "diffImage": "../bitmaps_test/20240315-180146/failed_diff_hero-underflow-tablet.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  src: url(./Montserrat-400.woff2);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 500;
+  src: url(./Montserrat-500.woff2);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 600;
+  src: url(./Montserrat-600.woff2);
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-weight: 700;
+  src: url(./Montserrat-700.woff2);
+}
+
+@font-face {
+  font-family: "Playfair";
+  font-weight: 700;
+  src: url(./Playfair-700.woff2);
+}
+@font-face {
+  font-family: "Playfair";
+  font-weight: 800;
+  src: url(./Playfair-800.woff2);
+}

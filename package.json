@@ -1,0 +1,48 @@
+{
+  "name": "membrana",
+  "version": "1.0.0",
+  "description": "Мембрана",
+  "author": "HTML Academy",
+  "devDependencies": {
+    "@htmlacademy/editorconfig-cli": "2.0.8",
+    "@linthtml/linthtml": "0.9.5",
+    "eslint": "8.56.0",
+    "eslint-config-htmlacademy": "10.0.1",
+    "htmlacademy-backstopjs": "6.6.1",
+    "linthtml-config-htmlacademy": "1.0.16",
+    "stylelint": "16.2.1",
+    "stylelint-config-htmlacademy": "4.0.5",
+    "w3c-html-validator": "1.6.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test:example": "backstop test --config=test-example/config.js",
+    "test:example:header": "backstop test --config=test-example/header.js",
+    "test:example:main": "backstop test --config=test-example/main.js",
+    "test:example:footer": "backstop test --config=test-example/footer.js",
+    "test:htmlcss": "backstop test --config=test-htmlcss/config.js",
+    "test:htmlcss:component-1": "backstop test --config=test-htmlcss/component-1.js",
+    "test:htmlcss:component-1-strict": "backstop test --config=test-htmlcss/component-1-strict.js",
+    "test:htmlcss:component-2": "backstop test --config=test-htmlcss/component-2.js",
+    "test:htmlcss:component-2-strict": "backstop test --config=test-htmlcss/component-2-strict.js",
+    "test:htmlcss:component-3": "backstop test --config=test-htmlcss/component-3.js",
+    "test:htmlcss:component-3-strict": "backstop test --config=test-htmlcss/component-3-strict.js",
+    "test:js": "backstop test --config=test-js/config.js",
+    "test:js:component-1": "backstop test --config=test-js/component-1/config.js",
+    "test:js:component-1:level-1": "backstop test --config=test-js/component-1/level-1.js",
+    "test:js:component-1:level-2": "backstop test --config=test-js/component-1/level-2.js",
+    "test:js:component-1:level-3": "backstop test --config=test-js/component-1/level-3.js",
+    "test:js:component-2": "backstop test --config=test-js/component-2/config.js",
+    "test:js:component-2:level-1": "backstop test --config=test-js/component-2/level-1.js",
+    "test:js:component-2:level-2": "backstop test --config=test-js/component-2/level-2.js",
+    "test:js:component-2:level-3": "backstop test --config=test-js/component-2/level-3.js",
+    "lint:spaces": "ec -j glob.json",
+    "lint:markup": "html-validator task-htmlcss/**/*.html --quiet",
+    "lint:html": "linthtml task-htmlcss/**/*.html --config .linthtmlrc",
+    "lint:styles": "stylelint task-htmlcss/**/*.css",
+    "lint:scripts": "eslint task-js/**/*.js",
+    "lint": "npm run lint:spaces && npm run lint:html && npm run lint:styles && npm run lint:scripts"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-desktop.png",
+        "test": "../bitmaps_test/20240315-160752/header-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-desktop.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.218171296296296,
+          "misMatchPercentage": "3.22",
+          "analysisTime": 31
+        },
+        "diffImage": "../bitmaps_test/20240315-160752/failed_diff_header-desktop.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-tablet.png",
+        "test": "../bitmaps_test/20240315-160752/header-tablet.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-tablet.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "tablet",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.287543402777778,
+          "misMatchPercentage": "5.29",
+          "analysisTime": 26
+        },
+        "diffImage": "../bitmaps_test/20240315-160752/failed_diff_header-tablet.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-mobile.png",
+        "test": "../bitmaps_test/20240315-160752/header-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-mobile.png",
+        "label": "header",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.631111111111111,
+          "misMatchPercentage": "2.63",
+          "analysisTime": 18
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-desktop.png",
+        "test": "../bitmaps_test/20240315-160752/header-overflow-desktop.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-desktop.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7354166666666667,
+          "misMatchPercentage": "0.74",
+          "analysisTime": 20
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-htmlcss/reference/header-overflow-mobile.png",
+        "test": "../bitmaps_test/20240315-160752/header-overflow-mobile.png",
+        "selector": "[data-test=\"header\"]",
+        "fileName": "header-overflow-mobile.png",
+        "label": "header-overflow",
+        "requireSameDimensions": true,
+        "misMatchThreshold": 3,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "expect": 0,
+        "viewportLabel": "mobile",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.2155555555555555,
+          "misMatchPercentage": "5.22",
+          "analysisTime": 22
+        },
+        "diffImage": "../bitmaps_test/20240315-160752/failed_diff_header-overflow-mobile.png"
+      },
+      "status": "fail"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "extends": "linthtml-config-htmlacademy",
+  "rules": {
+    "htmlacademy/attr-req-value": [true, { "ignore": ["alt", "/^data-/"]}],
+    "htmlacademy/a-target-rel": false,
+    "htmlacademy/aria-label-misuse": false,
+    "htmlacademy/attr-delimiter": false,
+    "htmlacademy/class-first": false,
+    "htmlacademy/no-blocking-script": false,
+    "htmlacademy/req-single-styles": false,
+    "htmlacademy/space-between-comments": false,
+    "id-style": false
+  }
+}

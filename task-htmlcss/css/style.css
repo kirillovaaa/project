@@ -1,0 +1,375 @@
+body {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: #d2691e;
+  align-items: flex-start;
+  padding: 40px 75px 30px;
+  gap: 30px;
+}
+
+.header__logo {
+  width: 275px;
+}
+
+.header__nav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px 30px;
+  padding: 10px 0;
+}
+
+.header__nav-list {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.header__description {
+  width: 275px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  text-align: right;
+}
+
+.hero {
+  display: flex;
+  padding: 125px 105px 25px 105px;
+  background: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: 640px;
+}
+
+.hero__container {
+  display: flex;
+  max-width: 890px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero__title {
+  margin: 0;
+  font-family: "Playfair", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 77px;
+  line-height: 77px;
+}
+
+.hero__button {
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 19.5px;
+  font-weight: 500;
+  padding: 20px 0;
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  width: 240px;
+  height: 60px;
+}
+
+.hero__text {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 500px;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0ead6;
+  padding: 31px 105px;
+}
+
+.events__title {
+  font-size: 35px;
+  line-height: 42px;
+  font-family: "Playfair", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #513833;
+  margin-bottom: 50px;
+}
+
+.events__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.events__item-kavkaz {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 20px;
+  width: 390px;
+  height: 415px;
+  border-radius: 5px;
+  background: url(../images/food-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.events__item-altay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 20px;
+  width: 390px;
+  height: 415px;
+  border-radius: 5px;
+  background: url(../images/food-2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.events__item-adygea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px 20px;
+  width: 390px;
+  height: 415px;
+  border-radius: 5px;
+  background: url(../images/food-3.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.events__item-location {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  background-color: #d2691e;
+  border-radius: 5px;
+  padding: 8px 23px;
+  width: 64px;
+  align-items: center;
+}
+
+.events__location-text {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 500;
+}
+
+.events__item-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.events__container-data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.events__data-text {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400px;
+}
+
+.events__container-text {
+  margin: 0;
+  margin-bottom: 35px;
+  font-family: "Playfair", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.events__container-level {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.events__level-text {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400px;
+}
+
+.events__button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-self: center;
+  border: none;
+  background: transparent;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.events__button {
+  color: #d2691e;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    align-items: flex-end;
+  }
+
+  .header__logo {
+    width: auto;
+    flex: 1;
+  }
+
+  .header__nav {
+    display: none;
+  }
+
+  .header__description {
+    width: auto;
+    flex: 1;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 15px;
+    gap: 24px;
+  }
+
+  .header__logo {
+    flex: none;
+  }
+
+  .header__logo-image {
+    width: 114px;
+    height: 30px;
+  }
+
+  .header__description {
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    align-items: center;
+    height: 590px;
+    padding: 60px 75px;
+  }
+
+  .hero__container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 56px;
+    line-height: 56px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero {
+    padding: 43px 15px 15px 15px;
+    height: 400px;
+  }
+
+  .hero__title {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .hero__text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .hero__button {
+    padding: 15px 0;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .events {
+    padding: 40px 45px;
+  }
+
+  .events__title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .events__item-kavkaz,
+  .events__item-altay {
+    width: 324px;
+  }
+
+  .events__item-adygea {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .events {
+    padding: 52px 15px 40px 15px;
+  }
+  .events__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  .events__items {
+    margin-bottom: 30px;
+  }
+
+  .events__item-kavkaz {
+    width: 345px;
+  }
+
+  .events__item-altay,
+  .events__item-adygea {
+    display: none;
+  }
+
+  .events__button {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .events__button-image {
+    width: 12px;
+    height: 12px;
+  }
+}
