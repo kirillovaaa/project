@@ -3,16 +3,15 @@
   "tests": [
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-desktop.log.json",
-        "selector": "[data-test=\"events\"]",
-        "fileName": "events-desktop.png",
-        "label": "events",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 3,
-        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "reference": "../../test-js/component-1/reference/accordeon_31.png",
+        "referenceLog": "../../test-js/component-1/reference/accordeon_31.log.json",
+        "test": "../bitmaps_test/20240319-140807/accordeon_31.png",
+        "testLog": "../bitmaps_test/20240319-140807/accordeon_31.log.json",
+        "selector": "document",
+        "fileName": "accordeon_31.png",
+        "label": "accordeon 3.1",
+        "misMatchThreshold": 4,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-js/component-1/index.html?tabs_limit=3",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -21,79 +20,22 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.10929778415431214,
-          "misMatchPercentage": "0.11",
-          "analysisTime": 47
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-mobile.png",
-        "referenceLog": "../../test-htmlcss/reference/events-mobile.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-mobile.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-mobile.log.json",
-        "selector": "[data-test=\"events\"]",
-        "fileName": "events-mobile.png",
-        "label": "events",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 3,
-        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
-        "expect": 0,
-        "viewportLabel": "mobile",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "rawMisMatchPercentage": 2.5543859649122806,
-          "misMatchPercentage": "2.55",
-          "analysisTime": 32
-        }
-      },
-      "status": "pass"
-    },
-    {
-      "pair": {
-        "reference": "../../test-htmlcss/reference/events-tablet.png",
-        "referenceLog": "../../test-htmlcss/reference/events-tablet.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-tablet.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-tablet.log.json",
-        "selector": "[data-test=\"events\"]",
-        "fileName": "events-tablet.png",
-        "label": "events",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 3,
-        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
-        "expect": 0,
-        "viewportLabel": "tablet",
-        "diff": {
-          "isSameDimensions": true,
-          "dimensionDifference": {
-            "width": 0,
-            "height": 0
-          },
-          "rawMisMatchPercentage": 0.5984084338863751,
-          "misMatchPercentage": "0.60",
-          "analysisTime": 27
-        }
-      },
-      "status": "pass"
-    },
-    {
-      "pair": {
-        "reference": "../../test-htmlcss/reference/events-overflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-overflow-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-overflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-overflow-desktop.log.json",
-        "selector": "[data-test=\"events\"]",
-        "fileName": "events-overflow-desktop.png",
-        "label": "events-overflow",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 3,
-        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "reference": "../../test-js/component-1/reference/accordeon_32.png",
+        "referenceLog": "../../test-js/component-1/reference/accordeon_32.log.json",
+        "test": "../bitmaps_test/20240319-140807/accordeon_32.png",
+        "testLog": "../bitmaps_test/20240319-140807/accordeon_32.log.json",
+        "selector": "document",
+        "fileName": "accordeon_32.png",
+        "label": "accordeon 3.2",
+        "misMatchThreshold": 4,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-js/component-1/index.html?tabs_limit=3",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -102,25 +44,22 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.11069265104415749,
-          "misMatchPercentage": "0.11",
-          "analysisTime": 54
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
     },
     {
       "pair": {
-        "reference": "../../test-htmlcss/reference/events-underflow-desktop.png",
-        "referenceLog": "../../test-htmlcss/reference/events-underflow-desktop.log.json",
-        "test": "../bitmaps_test/20240317-131544/events-underflow-desktop.png",
-        "testLog": "../bitmaps_test/20240317-131544/events-underflow-desktop.log.json",
-        "selector": "[data-test=\"events\"]",
-        "fileName": "events-underflow-desktop.png",
-        "label": "events-underflow",
-        "requireSameDimensions": true,
-        "misMatchThreshold": 3,
-        "url": "file:///Users/aleksandrakirillova/dev/project/task-htmlcss/index.html",
+        "reference": "../../test-js/component-1/reference/accordeon_33.png",
+        "referenceLog": "../../test-js/component-1/reference/accordeon_33.log.json",
+        "test": "../bitmaps_test/20240319-140807/accordeon_33.png",
+        "testLog": "../bitmaps_test/20240319-140807/accordeon_33.log.json",
+        "selector": "document",
+        "fileName": "accordeon_33.png",
+        "label": "accordeon 3.3",
+        "misMatchThreshold": 4,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-js/component-1/index.html?tabs_limit=3",
         "expect": 0,
         "viewportLabel": "desktop",
         "diff": {
@@ -129,9 +68,31 @@
             "width": 0,
             "height": 0
           },
-          "rawMisMatchPercentage": 0.10959668420213614,
-          "misMatchPercentage": "0.11",
-          "analysisTime": 42
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../../test-js/component-1/reference/accordeon_34.png",
+        "referenceLog": "../../test-js/component-1/reference/accordeon_34.log.json",
+        "test": "../bitmaps_test/20240319-140807/accordeon_34.png",
+        "testLog": "../bitmaps_test/20240319-140807/accordeon_34.log.json",
+        "selector": "document",
+        "fileName": "accordeon_34.png",
+        "label": "accordeon 3.4",
+        "misMatchThreshold": 4,
+        "url": "file:///Users/aleksandrakirillova/dev/project/task-js/component-1/index.html?tabs_limit=3",
+        "expect": 0,
+        "viewportLabel": "desktop",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
         }
       },
       "status": "pass"
