@@ -4,9 +4,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_21.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_21.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_21.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_21.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_21.png",
         "label": "form-validation 2.1",
@@ -28,9 +26,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_22.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_22.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_22.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_22.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_22.png",
         "label": "form-validation 2.2",
@@ -52,9 +48,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_23.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_23.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_23.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_23.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_23.png",
         "label": "form-validation 2.3",
@@ -76,9 +70,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_24.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_24.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_24.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_24.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_24.png",
         "label": "form-validation 2.4",
@@ -100,9 +92,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_25.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_25.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_25.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_25.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_25.png",
         "label": "form-validation 2.5",
@@ -124,9 +114,7 @@
     {
       "pair": {
         "reference": "../../test-js/component-2/reference/form-validation_26.png",
-        "referenceLog": "../../test-js/component-2/reference/form-validation_26.log.json",
         "test": "../bitmaps_test/20240321-135748/form-validation_26.png",
-        "testLog": "../bitmaps_test/20240321-135748/form-validation_26.log.json",
         "selector": ".dates-group",
         "fileName": "form-validation_26.png",
         "label": "form-validation 2.6",

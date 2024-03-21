@@ -59,14 +59,59 @@
       const daysDiff = (checkOutDate - checkInDate) / (1000 * 60 * 60 * 24);
 
       if (daysDiff < 4) {
-        // стиль ошибки для обоих полей
         validateField(form.elements["checkin-date"], false);
         validateField(form.elements["checkout-date"], false);
       } else {
-        // стиль успешных полей
         validateField(form.elements["checkin-date"], true);
         validateField(form.elements["checkout-date"], true);
       }
+    }
+
+    /**
+     * Проверка количества людей
+     *
+     * Условие A
+     * Взрослые: минимум 1
+     * Детей: не больше взрослых
+     *
+     * Условие B
+     * B1: single - взрослых === 1
+     * B2: family - взрослых >= 2, детей >= 1
+     */
+
+    const adultsCount = Number(form.elements["adults"].value);
+    const childrenCount = Number(form.elements["children"].value);
+    const roomType = form.elements["room-type"].value;
+
+    const basicCheck = adultsCount >= 1 && childrenCount <= adultsCount;
+
+    // условие А
+    if (basicCheck) {
+      switch (roomType) {
+        case "single":
+          if (adultsCount !== 1) {
+            validateField(form.elements["adults"], false);
+            validateField(form.elements["children"], false);
+          } else {
+            validateField(form.elements["adults"], true);
+            validateField(form.elements["children"], true);
+          }
+          break;
+        case "family":
+          if (adultsCount < 2 || childrenCount < 1) {
+            validateField(form.elements["adults"], false);
+            validateField(form.elements["children"], false);
+          } else {
+            validateField(form.elements["adults"], true);
+            validateField(form.elements["children"], true);
+          }
+          break;
+        default:
+          break;
+      }
+    } else {
+      validateField(form.elements["adults"], false);
+      validateField(form.elements["children"], false);
     }
   }
 
